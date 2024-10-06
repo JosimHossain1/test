@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.main-menu {
+  display: flex;
+}
+
+ul li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+.sub-menu {
+  background-color: whitesmoke;
+  color: red;
+  position: absolute;
+  padding: 10px 15px;
+  margin-left: -54541545400px;
+}
+
+.sub-menu li {
+  list-style: none;
+  margin-left: 0;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.product:hover .sub-menu {
+  margin: 0;
+}
