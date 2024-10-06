@@ -33,4 +33,5 @@ ul li {
 
 .product:hover .sub-menu {
   margin: 0;
+  background: red;
 }
